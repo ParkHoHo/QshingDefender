@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct QshingDefenderApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+    @AppStorage("isDarkMode") var isDarkMode = false
+
+        var body: some Scene {
+            WindowGroup {
+                ContentView()
+                    .environment(\.colorScheme, isDarkMode ? .dark : .light)
+            }
         }
-    }
 }

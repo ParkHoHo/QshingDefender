@@ -11,6 +11,16 @@
 		384CE1262B01E2BE00C2274C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE1252B01E2BE00C2274C /* ContentView.swift */; };
 		384CE1282B01E2C100C2274C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384CE1272B01E2C100C2274C /* Assets.xcassets */; };
 		384CE12B2B01E2C100C2274C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 384CE12A2B01E2C100C2274C /* Preview Assets.xcassets */; };
+		384CE1322B01E67500C2274C /* OnboardingTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE1312B01E67500C2274C /* OnboardingTabView.swift */; };
+		384CE1352B01F71500C2274C /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE1342B01F71500C2274C /* OnboardingPageView.swift */; };
+		384CE1372B01F76C00C2274C /* OnboardingLastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE1362B01F76C00C2274C /* OnboardingLastView.swift */; };
+		384CE13B2B0233AC00C2274C /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE13A2B0233AC00C2274C /* ScannerView.swift */; };
+		384CE13D2B024CB700C2274C /* ThreeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE13C2B024CB700C2274C /* ThreeTabView.swift */; };
+		384CE13F2B02500000C2274C /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE13E2B02500000C2274C /* SplashView.swift */; };
+		384CE1412B02656E00C2274C /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384CE1402B02656D00C2274C /* NetworkController.swift */; };
+		3877FF4C2B02722800315A7B /* ResponseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877FF4B2B02722800315A7B /* ResponseController.swift */; };
+		3877FF512B02976A00315A7B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877FF502B02976A00315A7B /* HomeView.swift */; };
+		3877FF532B02A08E00315A7B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3877FF522B02A08E00315A7B /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		384CE1252B01E2BE00C2274C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		384CE1272B01E2C100C2274C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		384CE12A2B01E2C100C2274C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		384CE1312B01E67500C2274C /* OnboardingTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTabView.swift; sourceTree = "<group>"; };
+		384CE1342B01F71500C2274C /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
+		384CE1362B01F76C00C2274C /* OnboardingLastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingLastView.swift; sourceTree = "<group>"; };
+		384CE13A2B0233AC00C2274C /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		384CE13C2B024CB700C2274C /* ThreeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeTabView.swift; sourceTree = "<group>"; };
+		384CE13E2B02500000C2274C /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		384CE1402B02656D00C2274C /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		3877FF4B2B02722800315A7B /* ResponseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseController.swift; sourceTree = "<group>"; };
+		3877FF502B02976A00315A7B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3877FF522B02A08E00315A7B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +71,14 @@
 		384CE1222B01E2BE00C2274C /* QshingDefender */ = {
 			isa = PBXGroup;
 			children = (
+				3877FF4F2B0296AC00315A7B /* Network_Util */,
+				3877FF4E2B02969700315A7B /* TabViewController */,
+				3877FF4D2B02968200315A7B /* StartView */,
+				384CE1332B01F6CF00C2274C /* OnboardingView */,
+				384CE1292B01E2C100C2274C /* Preview Content */,
 				384CE1232B01E2BE00C2274C /* QshingDefenderApp.swift */,
 				384CE1252B01E2BE00C2274C /* ContentView.swift */,
 				384CE1272B01E2C100C2274C /* Assets.xcassets */,
-				384CE1292B01E2C100C2274C /* Preview Content */,
 			);
 			path = QshingDefender;
 			sourceTree = "<group>";
@@ -65,6 +89,44 @@
 				384CE12A2B01E2C100C2274C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		384CE1332B01F6CF00C2274C /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				384CE1312B01E67500C2274C /* OnboardingTabView.swift */,
+				384CE1342B01F71500C2274C /* OnboardingPageView.swift */,
+				384CE1362B01F76C00C2274C /* OnboardingLastView.swift */,
+			);
+			path = OnboardingView;
+			sourceTree = "<group>";
+		};
+		3877FF4D2B02968200315A7B /* StartView */ = {
+			isa = PBXGroup;
+			children = (
+				384CE13E2B02500000C2274C /* SplashView.swift */,
+			);
+			path = StartView;
+			sourceTree = "<group>";
+		};
+		3877FF4E2B02969700315A7B /* TabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				384CE13C2B024CB700C2274C /* ThreeTabView.swift */,
+				384CE13A2B0233AC00C2274C /* ScannerView.swift */,
+				3877FF502B02976A00315A7B /* HomeView.swift */,
+				3877FF522B02A08E00315A7B /* SettingView.swift */,
+			);
+			path = TabViewController;
+			sourceTree = "<group>";
+		};
+		3877FF4F2B0296AC00315A7B /* Network_Util */ = {
+			isa = PBXGroup;
+			children = (
+				3877FF4B2B02722800315A7B /* ResponseController.swift */,
+				384CE1402B02656D00C2274C /* NetworkController.swift */,
+			);
+			path = Network_Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +200,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				384CE1262B01E2BE00C2274C /* ContentView.swift in Sources */,
+				384CE13F2B02500000C2274C /* SplashView.swift in Sources */,
+				3877FF4C2B02722800315A7B /* ResponseController.swift in Sources */,
+				384CE1322B01E67500C2274C /* OnboardingTabView.swift in Sources */,
+				384CE1352B01F71500C2274C /* OnboardingPageView.swift in Sources */,
+				384CE13B2B0233AC00C2274C /* ScannerView.swift in Sources */,
+				384CE13D2B024CB700C2274C /* ThreeTabView.swift in Sources */,
+				3877FF512B02976A00315A7B /* HomeView.swift in Sources */,
+				384CE1372B01F76C00C2274C /* OnboardingLastView.swift in Sources */,
+				3877FF532B02A08E00315A7B /* SettingView.swift in Sources */,
 				384CE1242B01E2BE00C2274C /* QshingDefenderApp.swift in Sources */,
+				384CE1412B02656E00C2274C /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +347,7 @@
 				DEVELOPMENT_TEAM = ZFX2T346K6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRCODE 인식을 위해 카메라 권한을 사용합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +377,7 @@
 				DEVELOPMENT_TEAM = ZFX2T346K6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "QRCODE 인식을 위해 카메라 권한을 사용합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

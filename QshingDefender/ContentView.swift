@@ -3,22 +3,35 @@
 //  QshingDefender
 //
 //  Created by 박경호 on 11/13/23.
-//
+
 
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var scannedCode: String?
+    @State private var showMainView = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            ZStack {
+                if showMainView {
+                    ThreeTabView()
+                } else {
+                    SplashView()
+                        .onAppear {
+                            DispatchQueue.main.asyncAfter(deadline: .now()+3.0) {
+                                withAnimation {
+                                    showMainView = true
+                                }
+                            }
+                        }
+                }
+            }
         }
-        .padding()
-    }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
