@@ -13,4 +13,4 @@
 https://github.com/ParkHoHo/QshingDefender/assets/94422773/d3a75586-bf8b-4c5a-b474-1e90c5e9275e
 
 ### 공동작업자
-**Co-authored-by** :  [@Dev-2mole](https://github.com/Dev-2mole), [@Lee216gs](https://github.com/Lee216gs), [@with-developer](https://github.com/with-developer),
+**Co-authored-by** :  [@Dev-2mole](https://github.com/Dev-2mole), [@Lee216gs](https://github.com/Lee216gs), [@with-developer](https://github.com/with-developer),[hurhyeon](https://github.com/hurhyeon)
