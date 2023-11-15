@@ -10,5 +10,5 @@
 </p>
 
 ## 시연
-<img alt="" src= https://github.com/ParkHoHo/QshingDefender/assets/94422773/a3f446b2-5e2e-4723-99d9-87c4c14b5903 width="300">
+
 
