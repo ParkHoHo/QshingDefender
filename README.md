@@ -5,16 +5,9 @@
 서버로 url을 보내서 QRCODE를 검증<br>
 
 
-|<img alt="" src= https://github.com/ParkHoHo/QshingDefender/assets/94422773/f73c15d2-29ca-49c7-9b44-d919f81eaba6 width="300"> | <img alt="" src=https://github.com/ParkHoHo/QshingDefender/assets/94422773/07291718-28e5-4894-a93d-f3acad091047 width="300">| <img alt="" src=https://github.com/ParkHoHo/QshingDefender/assets/94422773/8000e2a4-f059-4bce-9079-ec02785d8733 width="300">
+|<img alt="" src= https://github.com/ParkHoHo/QshingDefender/assets/94422773/f73c15d2-29ca-49c7-9b44-d919f81eaba6 width="250"> | <img alt="" src=https://github.com/ParkHoHo/QshingDefender/assets/94422773/07291718-28e5-4894-a93d-f3acad091047 width="250">| <img alt="" src=https://github.com/ParkHoHo/QshingDefender/assets/94422773/8000e2a4-f059-4bce-9079-ec02785d8733 width="250">
 
 
-
-</p>
-<p float="left">
-  <img alt="" src= https://github.com/ParkHoHo/QshingDefender/assets/94422773/f73c15d2-29ca-49c7-9b44-d919f81eaba6 width="300">
-  <img alt="" src=https://github.com/ParkHoHo/QshingDefender/assets/94422773/07291718-28e5-4894-a93d-f3acad091047 width="300">
-  <img alt="" src=https://github.com/ParkHoHo/QshingDefender/assets/94422773/8000e2a4-f059-4bce-9079-ec02785d8733 width="300">
-</p>
 
 ## 시연
 https://github.com/ParkHoHo/QshingDefender/assets/94422773/d3a75586-bf8b-4c5a-b474-1e90c5e9275e
